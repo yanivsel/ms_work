@@ -1,7 +1,6 @@
 from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient
 import os
 from dotenv import load_dotenv, dotenv_values
-print("It's me Shaul")
 load_dotenv()
 # Auth
 first_account_name = os.getenv("AccountName1")
@@ -17,7 +16,7 @@ container_name = "blobcontainer"
 blob_service_client_Source = BlobServiceClient.from_connection_string(connect_str1)
 blob_service_client_Destination = BlobServiceClient.from_connection_string(connect_str2)
 container_clientSource = blob_service_client_Source.get_container_client(container_name)
-container_clientDestination = blob_service_client_Source.get_container_client(container_name)
+container_clientDestination = blob_service_client_Destination.get_container_client(container_name)
 
 
 # Creating container if it doesn't exist
@@ -25,6 +24,7 @@ def create_container(client):
     try:
         # container_client.create_container()
         client.create_container()
+        print(f'account {client} has been created')
     except Exception:
         print(f"container creation has failed. Check if it already exists")
 
@@ -56,8 +56,11 @@ def copy_blobs_to_second_account(sourceAccountName, sourceContainerName):
         for blob in source_container_client.list_blobs():
             
             source_blob_url = f"https://{sourceAccountName}.blob.core.windows.net/{sourceContainerName}/{blob.name}"
+            print(source_blob_url)
+            print(blob)
             # Get destination blob client
             dest_blob_client = dest_container_client.get_blob_client(blob.name)
+            print(dest_blob_client)
 
             # Start copy operation
             copy_operation = dest_blob_client.start_copy_from_url(source_blob_url)
@@ -69,8 +72,3 @@ def copy_blobs_to_second_account(sourceAccountName, sourceContainerName):
 
 create_and_upload_blobs(blob_service_client_Source)
 copy_blobs_to_second_account(first_account_name, container_name)
-
-
-
-
-
