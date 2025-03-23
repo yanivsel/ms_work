@@ -21,20 +21,11 @@ steps:
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/yanivsel/ms_work/blob/main/Microsoft/ARM/sa_template.json'
     overrideParameters: |
-     - task: AzureResourceManagerTemplateDeployment@3
-  inputs:
-    deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'ARMConnection'
-    subscriptionId: '5504e78e-76df-44ff-b37e-b80c151e00b9'
-    action: 'Create Or Update Resource Group'
-    resourceGroupName: 'Main'
-    location: 'UAE North'
-    templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/yanivsel/ms_work/blob/main/Microsoft/ARM/sa_template.json'
-    overrideParameters: |
-      -storageAccountName [yanivian2]
+      -storageAccountName [yanivian1]
       -location [Main]
       -containerName [blobcontainer]
+    deploymentMode: 'Incremental'
+
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
@@ -48,3 +39,18 @@ steps:
     csmParametersFileLink: 'https://raw.githubusercontent.com/yanivsel/ms_work/blob/main/Microsoft/ARM/server_template.parameters.json'
     deploymentMode: 'Incremental'
     deploymentName: 'yanivian1'
+- task: AzureResourceManagerTemplateDeployment@3
+  inputs:
+    deploymentScope: 'Resource Group'
+    azureResourceManagerConnection: 'ARMConnection'
+    subscriptionId: '5504e78e-76df-44ff-b37e-b80c151e00b9'
+    action: 'Create Or Update Resource Group'
+    resourceGroupName: 'Main'
+    location: 'UAE North'
+    templateLocation: 'URL of the file'
+    csmFileLink: 'https://raw.githubusercontent.com/yanivsel/ms_work/blob/main/Microsoft/ARM/sa_template.json'
+    overrideParameters: |
+      -storageAccountName [yanivian2]
+      -location [Main]
+      -containerName [blobcontainer]
+    deploymentMode: 'Incremental'
