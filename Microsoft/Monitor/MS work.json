@@ -1,0 +1,467 @@
+{
+  "properties": {
+    "lenses": [
+      {
+        "order": 0,
+        "parts": [
+          {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "colSpan": 6,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "id": "/subscriptions/5504e78e-76df-44ff-b37e-b80c151e00b9/resourceGroups/Main/providers/Microsoft.Storage/storageAccounts/yanivian1"
+                          },
+                          "name": "UsedCapacity",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.storage/storageaccounts",
+                          "metricVisualization": {
+                            "displayName": "Used capacity"
+                          }
+                        }
+                      ],
+                      "title": "Avg Used capacity for yanivian1",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideHoverCard": false,
+                          "hideLabelNames": true
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 6,
+              "y": 0,
+              "colSpan": 6,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "id": "/subscriptions/5504e78e-76df-44ff-b37e-b80c151e00b9/resourceGroups/Main/providers/Microsoft.Storage/storageAccounts/yanivian1"
+                          },
+                          "name": "Availability",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.storage/storageaccounts",
+                          "metricVisualization": {
+                            "displayName": "Availability"
+                          }
+                        }
+                      ],
+                      "title": "Avg Availability for yanivian1",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideHoverCard": false,
+                          "hideLabelNames": true
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 0,
+              "y": 4,
+              "colSpan": 6,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "id": "/subscriptions/5504e78e-76df-44ff-b37e-b80c151e00b9/resourceGroups/Main/providers/Microsoft.Storage/storageAccounts/yanivian2"
+                          },
+                          "name": "UsedCapacity",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.storage/storageaccounts",
+                          "metricVisualization": {
+                            "displayName": "Used capacity"
+                          }
+                        }
+                      ],
+                      "title": "Avg Used capacity for yanivian2",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideHoverCard": false,
+                          "hideLabelNames": true
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 6,
+              "y": 4,
+              "colSpan": 6,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "id": "/subscriptions/5504e78e-76df-44ff-b37e-b80c151e00b9/resourceGroups/Main/providers/Microsoft.Storage/storageAccounts/yanivian2"
+                          },
+                          "name": "Availability",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.storage/storageaccounts",
+                          "metricVisualization": {
+                            "displayName": "Availability"
+                          }
+                        }
+                      ],
+                      "title": "Avg Availability for yanivian2",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideHoverCard": false,
+                          "hideLabelNames": true
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 0,
+              "y": 8,
+              "colSpan": 6,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "id": "/subscriptions/5504e78e-76df-44ff-b37e-b80c151e00b9/resourceGroups/Main/providers/Microsoft.Network/publicIPAddresses/server-pip"
+                          },
+                          "name": "IfUnderDDoSAttack",
+                          "aggregationType": 3,
+                          "namespace": "microsoft.network/publicipaddresses",
+                          "metricVisualization": {
+                            "displayName": "Under DDoS attack or not",
+                            "resourceDisplayName": "server-pip"
+                          }
+                        }
+                      ],
+                      "title": "Max Under DDoS attack or not for server-pip",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideHoverCard": false,
+                          "hideLabelNames": true
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 6,
+              "y": 8,
+              "colSpan": 6,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "id": "/subscriptions/5504e78e-76df-44ff-b37e-b80c151e00b9/resourceGroups/Main/providers/Microsoft.Network/publicIPAddresses/pip-server-vnet-uaenorth-default"
+                          },
+                          "name": "ByteCount",
+                          "aggregationType": 1,
+                          "namespace": "microsoft.network/publicipaddresses",
+                          "metricVisualization": {
+                            "displayName": "Byte Count",
+                            "resourceDisplayName": "pip-server-vnet-uaenorth-default"
+                          }
+                        },
+                        {
+                          "resourceMetadata": {
+                            "id": "/subscriptions/5504e78e-76df-44ff-b37e-b80c151e00b9/resourceGroups/Main/providers/Microsoft.Network/publicIPAddresses/pip-server-vnet-uaenorth-default"
+                          },
+                          "name": "VipAvailability",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.network/publicipaddresses",
+                          "metricVisualization": {
+                            "displayName": "Data Path Availability",
+                            "resourceDisplayName": "pip-server-vnet-uaenorth-default"
+                          }
+                        },
+                        {
+                          "resourceMetadata": {
+                            "id": "/subscriptions/5504e78e-76df-44ff-b37e-b80c151e00b9/resourceGroups/Main/providers/Microsoft.Network/publicIPAddresses/pip-server-vnet-uaenorth-default"
+                          },
+                          "name": "IfUnderDDoSAttack",
+                          "aggregationType": 7,
+                          "namespace": "microsoft.network/publicipaddresses",
+                          "metricVisualization": {
+                            "displayName": "Under DDoS attack or not",
+                            "resourceDisplayName": "pip-server-vnet-uaenorth-default"
+                          }
+                        }
+                      ],
+                      "title": "Sum Byte Count, Avg Data Path Availability, and Count Under DDoS attack or not for pip-server-vnet-uaenorth-default",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideHoverCard": false,
+                          "hideLabelNames": true
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "model": {
+        "timeRange": {
+          "value": {
+            "relative": {
+              "duration": 24,
+              "timeUnit": 1
+            }
+          },
+          "type": "MsPortalFx.Composition.Configuration.ValueTypes.TimeRange"
+        },
+        "filterLocale": {
+          "value": "en-us"
+        },
+        "filters": {
+          "value": {
+            "MsPortalFx_TimeRange": {
+              "model": {
+                "format": "utc",
+                "granularity": "auto",
+                "relative": "24h"
+              },
+              "displayCache": {
+                "name": "UTC Time",
+                "value": "Past 24 hours"
+              },
+              "filteredPartIds": [
+                "StartboardPart-MonitorChartPart-35b1f03c-25d7-4f56-acc3-d00d9e163580",
+                "StartboardPart-MonitorChartPart-35b1f03c-25d7-4f56-acc3-d00d9e16359f",
+                "StartboardPart-MonitorChartPart-35b1f03c-25d7-4f56-acc3-d00d9e1635ab",
+                "StartboardPart-MonitorChartPart-35b1f03c-25d7-4f56-acc3-d00d9e1635b7",
+                "StartboardPart-MonitorChartPart-35b1f03c-25d7-4f56-acc3-d00d9e1635c3",
+                "StartboardPart-MonitorChartPart-35b1f03c-25d7-4f56-acc3-d00d9e163918"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "name": "MS work",
+  "type": "Microsoft.Portal/dashboards",
+  "location": "INSERT LOCATION",
+  "tags": {
+    "hidden-title": "MS work"
+  },
+  "apiVersion": "2022-12-01-preview"
+}

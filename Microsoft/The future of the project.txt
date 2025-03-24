@@ -1,0 +1,8 @@
+There are a few thing needed to finish the project that I could not do while adhering to the deadline:
+1. Check the conectivity of the server on Azure.
+2. Install on server an agent for Azure Devops.
+3. Apply for parallelism request on Azure Devops.
+4. Run the python blob script on the server.
+
+The rest of the things I managed to complete, hopefuly in a satisfactory manner. If you have any critisism, I would love to hear it at the earliest convenience.
+Have a wonderful day.

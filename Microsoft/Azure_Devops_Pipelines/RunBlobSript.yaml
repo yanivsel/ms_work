@@ -1,0 +1,18 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+
+steps:
+
+- task: DownloadSecureFile@1
+  inputs:
+    secureFile: '.env'
+- task: PythonScript@0
+  inputs:
+    scriptSource: 'filePath'
+    scriptPath: 'https://raw.githubusercontent.com/yanivsel/ms_work/blob/main/Microsoft/Python/blobScript.py'
